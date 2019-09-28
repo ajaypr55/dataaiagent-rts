@@ -124,6 +124,6 @@ services:
           EXAMPLE_ZOOKEEPER_SERVER: "zookeeper:32181"
         networks:
           - bridge
-  volumes:
-    kafka_zookeeper:
-    kafka_kafka:
+volumes:
+  kafka_zookeeper:
+  kafka_kafka:
