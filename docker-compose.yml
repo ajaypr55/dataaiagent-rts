@@ -31,7 +31,7 @@ services:
       KAFKA_OPTS: -javaagent:/prometheus/jmx_prometheus_javaagent-0.3.1.jar=8080:/prometheus/kafka-0-8-2.yml 
     volumes:
       - ./kafka/prometheus:/prometheus
-      - kafka_kafka1:/opt/kafka_2.12-2.2.0/logs
+      - kafka_kafka:/opt/kafka_2.12-2.2.0/logs
     networks:
       bridge:
         aliases:
